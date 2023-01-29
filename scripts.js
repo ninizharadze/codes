@@ -43,3 +43,7 @@ console.log(result2);
 // getFibonacci(8) = getFibonacci(7) + getFibonacci(6); 13 + 8 = 21
 
 
+
+
+
+
