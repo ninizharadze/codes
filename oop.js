@@ -16,6 +16,8 @@ let currentDate = new Date;
 document.write(currentDate);
 
 
+
+
 let days = ["კვირა","ორშაბათი","სამშაბათი","ოთხშაბათი","ხუთშაბათი","პარასკევი","შაბათი"];
 let months = ["იანვარი","თებერვალი","მარტი","აპრილი","მაისი","ივნისი",
                 "ივლისი","აგვისტო","სექტემბერი","ოქტომბერი","ნოემბერი","დეკემბერი"];
@@ -25,6 +27,10 @@ let myDate = new Date();
 let fullDate = " დღეს" + " " + myDate.getFullYear() + " " + "წლის" + " " + myDate.getDate()
  + " " + months[myDate.getMonth()] + "ა" + "," + " " + days[myDate.getDay()];
 document.write(fullDate);
+
+
+
+
 
 let welcome;
 // let mydate = new Date;
@@ -48,3 +54,4 @@ if(hour<12){
 }
 
 document.write(welcome + "მიმდინარე დროა:" + hour + ":" + minute + ":" + second);
+
