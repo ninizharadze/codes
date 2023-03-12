@@ -5,5 +5,15 @@ cube.style.backgroundColor = "red";
 
 const container = document.querySelector(".container");
 
-cobtainer.appendChild(cube);
+container.appendChild(cube);
+
+container.addEventListener("click", () => {
+    if(cube.style.backgroundColor = "red"){
+        cube.style.backgroundColor = "green"
+    }else{
+        cube.style.backgroundColor = "red"
+    }
+});
+
+
 
