@@ -45,5 +45,13 @@ console.log(result2);
 
 
 
+const cube = document.createElement('div');
+cube.style.width = 100;
+cube.style.height = 100;
+cube.style.background = 'red';
+
+const container = document.querySelector('.container');
+
+cube.appendChild(container);
 
 

@@ -1,0 +1,14 @@
+#canv1{
+    width: 200px;
+    height: 200px;
+    margin-left: 180px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
