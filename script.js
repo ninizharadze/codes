@@ -16,4 +16,12 @@ container.addEventListener("click", () => {
 });
 
 
+class Rectangle{
+    constructor(width, height){
+    this.width = width;
+    this.height = height;
+    }
+}
 
+const square = new Rectangle(10, 10);
+console.log(square);
