@@ -25,3 +25,24 @@ class Rectangle{
 
 const square = new Rectangle(10, 10);
 console.log(square);
+
+
+let a = { a: 2, b: 5};
+let b = { a: 2, b: 5};
+
+
+console.log(a === b);
+
+
+function Phone(manufactorer, model, year){
+    this.manufactorer = manufactorer;
+    this.model = model;
+    this.year = year;
+    this.ring = function(){
+        console.log(`${this.model} is ringing`);
+    }
+}
+
+const Iphone = new Phone("Apple", "Iphone 13 pro", 2019);
+Iphone.ring();
+console.log(Iphone);
