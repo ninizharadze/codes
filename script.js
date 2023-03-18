@@ -46,3 +46,13 @@ function Phone(manufactorer, model, year){
 const Iphone = new Phone("Apple", "Iphone 13 pro", 2019);
 Iphone.ring();
 console.log(Iphone);
+
+let c = 0;
+const id = setInterval(()=> {
+    c++;
+    console.log(c);
+}, 1000);
+
+setTimeout(()=>{
+    clearInterval(id);
+}, 7000);
