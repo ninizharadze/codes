@@ -56,3 +56,5 @@ const id = setInterval(()=> {
 setTimeout(()=>{
     clearInterval(id);
 }, 7000);
+
+
